@@ -1,0 +1,11 @@
+def sum_or_prod_num(a, b):
+    sum = a + b
+    prod = a * b
+    if (prod <= 1000):
+        print("The result is", prod) 
+    else:
+        print("The result is", sum)
+    return
+
+print(sum_or_prod_num(40, 30))
+print(sum_or_prod_num(20, 30))
