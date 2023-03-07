@@ -1,0 +1,7 @@
+print("Printing current and previous number sum in a range(10)")
+prev_num = 0
+
+for i in range(0, 10):
+    sum_cp = prev_num + i
+    print("Current Number", i, "Previous Number", prev_num, "Sum: ", sum_cp)
+    prev_num = i
