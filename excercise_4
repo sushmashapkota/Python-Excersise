@@ -1,0 +1,6 @@
+def remove_chars(s, n):
+    x = s[n:]
+    return x
+
+print(remove_chars("pynative", 4))
+print(remove_chars("sushma", 2))
