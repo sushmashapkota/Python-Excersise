@@ -1,0 +1,13 @@
+
+def first_last_num(num_list):
+    print("Given list:", num_list)
+    first_num = num_list[0]
+    last_num = num_list[-1]
+
+    if first_num == last_num:
+        print("result is True")
+    else:
+        print("result is False")
+
+print(first_last_num([10, 20, 30, 40, 10]))
+print(first_last_num([75, 65, 35, 75, 30]))
